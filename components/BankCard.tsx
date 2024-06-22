@@ -12,7 +12,7 @@ const BankCard = (
       <Link href='/' className='bank-card'>
         <div className='bank-card_content'>
           <div>
-            <h1 className='relative left-[-25%] text-16 font-semibold text-white'>{account.name || userName}</h1>
+            <h1 className='relative left-[-25%] text-16 font-semibold text-white'>{userName}</h1>
             <p className='relative left-[-34%] font-ibm-plex-serif font-black text-white'>
               {formatAmount(account.currentBalance)}
             </p>
