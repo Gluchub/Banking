@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import Footer from './Footer';
+import PlaidLink from './PlaidLink';
 
 const SideBar = ({user}: SiderbarProps) => {
     const pathname= usePathname();
@@ -15,7 +16,7 @@ const SideBar = ({user}: SiderbarProps) => {
         <nav className='flex flex-col gap-4'>
             <Link href="/" className='mr-4 mb-12 cursor-pointer flex items-center gap-2'>
                 <Image 
-                    src="/icons/logo.svg"
+                    src="/icons/logo.png"
                     width={34}
                     height={34}
                     alt='MoneyMatrix logo'
@@ -62,7 +63,7 @@ const SideBar = ({user}: SiderbarProps) => {
             )
         }
         )}
-        USER
+        <PlaidLink user={user} />
         </nav>
         <Footer user={user} type='desktop'/>
     </section>

@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import AnimatedCounter from './AnimatedCounter';
 import DoughnutChart from './DoughnutChart';
 
-const TotalBalanceBox = ({ accounts=[], totalBanks, totalCurrentBalance }: TotalBalanceBoxProps) => {
+const TotalBalanceBox = ({ accounts, totalBanks, totalCurrentBalance }: TotalBalanceBoxProps) => {
   return (
     <div className='total-balance'>
         <div className='total-balance-chart'>

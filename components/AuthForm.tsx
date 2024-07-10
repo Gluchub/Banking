@@ -87,9 +87,9 @@ const AuthForm = ({ type }: {type : string}) => {
         <header className='flex flex-col gap-5 md:gap-8'>
             <Link href="/" className='mr-4 cursor-pointer flex items-center gap-2'>
               <Image 
-                  src="/icons/logo.svg"
-                  width={34}
-                  height={34}
+                  src="/icons/logo.png"
+                  width={50}
+                  height={50}
                   alt='MoneyMatrix logo'
               />
               <h1 

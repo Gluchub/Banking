@@ -35,7 +35,7 @@ const MobileNav = ({user}: MobileNavProps) => {
           <SheetClose asChild key='/'>
             <Link href="/" className='mr-4 cursor-pointer flex items-center gap-2 px-4'>
               <Image 
-                  src="/icons/logo.svg"
+                  src="/icons/logo.png"
                   width={34}
                   height={34}
                   alt='MoneyMatrix logo'
